@@ -1,0 +1,246 @@
+/* =====================
+   MOBILE RESPONSIVE
+   ===================== */
+
+@media (max-width: 768px) {
+    /* NAVBAR */
+    .navbar-container {
+        padding: 1rem;
+    }
+
+    .navbar-logo {
+        font-size: 1.2rem;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background: white;
+        gap: 0;
+        border-top: 1px solid #eee;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 1rem;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* HERO */
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero-features {
+        grid-template-columns: 1fr;
+    }
+
+    /* UPLOAD BUTTONS */
+    .upload-buttons {
+        flex-direction: column;
+    }
+
+    .btn-upload {
+        width: 100%;
+    }
+
+    /* PRICE RANGE */
+    .price-range {
+        font-size: 1.5rem;
+    }
+
+    /* PLAN CARDS */
+    .premium-plans {
+        grid-template-columns: 1fr;
+    }
+
+    .plan-card.featured {
+        transform: scale(1);
+    }
+
+    /* MODAL */
+    .modal-content {
+        width: 95%;
+        max-width: none;
+    }
+
+    /* ACTION BUTTONS */
+    .action-buttons {
+        flex-direction: column;
+    }
+
+    .action-buttons .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* GENERAL */
+    body {
+        font-size: 14px;
+    }
+
+    /* NAVBAR */
+    .navbar-container {
+        padding: 0.75rem;
+    }
+
+    .navbar-logo {
+        font-size: 1rem;
+    }
+
+    /* BUTTONS */
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 2rem 1rem;
+        min-height: 50vh;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+    }
+
+    .feature-card {
+        padding: 1rem;
+    }
+
+    .feature-card i {
+        font-size: 2rem;
+    }
+
+    /* ANALYSIS */
+    .analysis-section {
+        padding: 1rem;
+    }
+
+    .analysis-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .upload-section {
+        padding: 1rem;
+    }
+
+    /* THUMBNAILS */
+    .thumbnail-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .thumbnail-item img {
+        height: 80px;
+    }
+
+    /* INFO GRID */
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* VISUAL DETAILS */
+    .visual-details {
+        gap: 0.75rem;
+    }
+
+    .detail-item {
+        flex-wrap: wrap;
+    }
+
+    /* SCORE CIRCLE */
+    .score-circle {
+        width: 80px;
+        height: 80px;
+        font-size: 1.5rem;
+    }
+
+    /* VIGNETTE */
+    .vignette-amount {
+        font-size: 2rem;
+    }
+
+    /* PAYWALL */
+    .premium-paywall {
+        padding: 1rem;
+    }
+
+    .paywall-card {
+        padding: 1rem;
+    }
+
+    .paywall-features {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    /* PREMIUM SECTION */
+    .premium-section {
+        padding: 2rem 1rem;
+    }
+
+    .premium-section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .plan-price {
+        font-size: 2rem;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 2rem 1rem;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* =====================
+   CAMERA & GALLERY
+   ===================== */
+@media (hover: none) and (pointer: coarse) {
+    /* Mobile touch device optimizations */
+    
+    .btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    .btn-upload {
+        padding: 1.2rem;
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        padding: 1.2rem 1rem;
+    }
+}
